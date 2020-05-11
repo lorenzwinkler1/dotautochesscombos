@@ -132,7 +132,19 @@ module DotaAutochessCombosData
         ("Nyx Assassin", [Species.Aqir], [Traits.Assassin], 4);
         ("Broodmother", [Species.Aqir], [Traits.Hunter], 4);
 
-        ("", [], [], 4);
-        ("", [], [], 3);
+        ("Disruptor", [Species.Orc], [Traits.Shaman], 5);
+        ("Invoker", [Species.Elf], [Traits.Mage], 5);
+        ("Io", [Species.Elf], [], 5);
+        ("Gyrocopter", [Species.Dwarf], [Traits.Mech], 5);
+        ("Huskar", [Species.Troll], [Traits.Warrior], 5);
+        ("Death Prophet", [Species.Undead], [Traits.Warlock], 5);
+        ("Jakiro", [Species.Dragon], [Traits.Mage], 5);
+        ("Techies", [Species.Goblin], [Traits.Mech], 5);
+        ("Snapfire", [Species.Goblin], [Traits.Knight], 5);
+        ("Tidehunter", [Species.Naga], [Traits.Hunter], 5);
+        ("Enigma", [Species.Elemental], [Traits.Warlock], 5);
+        ("Zeus", [Species.God], [Traits.Mage], 5);
+        ("Sven", [Species.Demon], [Traits.Warrior], 5);
+        ("Queen of Pain", [Species.Demon], [Traits.Assassin], 5);
 
     ]

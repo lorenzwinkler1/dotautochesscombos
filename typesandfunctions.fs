@@ -8,14 +8,15 @@ open GeneticSharp.Domain.Chromosomes
 
 
 let comboSize=10;
+let generationCount=10000;
 
 let evaluateSpeciesPerks comp =
     Enum.GetValues(typeof<Species>):?> (Species [])
-    |> Seq.filter (fun item -> speciesRules.[item] comp)
+    |> Seq.filter (fun item -> speciesRules.[item] (List.distinct comp))
 
 let evaluateTraitPerks comp =
     Enum.GetValues(typeof<Traits>):?> (Traits [])
-    |> Seq.filter (fun item -> traitRules.[item] (comp))
+    |> Seq.filter (fun item -> traitRules.[item] (List.distinct comp))
 
 
 let evaluatePerks comp =
