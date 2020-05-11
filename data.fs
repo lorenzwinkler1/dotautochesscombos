@@ -100,4 +100,39 @@ module DotaAutochessCombosData
         ("Slark",[Species.Naga],[Traits.Assassin],2);
         ("Chaos Knight",[Species.Demon],[Traits.Knight],2);
 
+        ("Legion Commander", [Species.Human], [Traits.Knight], 3);
+        ("Omniknight", [Species.Human], [Traits.Knight], 3);
+        ("Lina", [Species.Human], [Traits.Mage], 3);
+        ("Lycan", [Species.Human; Species.Beast], [Traits.Warrior], 3);
+        ("Phantom Assasin", [Species.Elf], [Traits.Assassin], 3);
+        ("Treant Protector", [Species.Elf], [Traits.Druid], 3);
+        ("Dazzle", [Species.Troll], [Traits.Priest], 3);
+        ("Pudge", [Species.Undead], [Traits.Warrior], 3);
+        ("Visage", [Species.Dragon; Species.Undead], [Traits.Hunter], 3);
+        ("Viper", [Species.Dragon], [Traits.Assassin], 3);
+        ("Razor", [Species.Elemental], [Traits.Mage], 3);
+        ("Rubick", [Species.God], [Traits.Wizard], 3);
+        ("Slardar", [Species.Naga], [Traits.Warrior], 3);
+        ("Terrorblade", [Species.Demon], [Traits.DemonHunter], 3);
+        ("Sand King", [Species.Aqir], [Traits.Assassin], 3);
+        ("Venomoancer", [Species.Aqir; Species.Beast], [Traits.Warlock], 3);
+
+        ("Keeper of the Light", [Species.Human], [Traits.Mage], 4);
+        ("Dragon Knight", [Species.Human; Species.Dragon], [Traits.Knight], 4);
+        ("Chen", [Species.Orc], [Traits.Priest], 4);
+        ("Lone Druid", [Species.Beast], [Traits.Druid], 4);
+        ("Windranger", [Species.Elf], [Traits.Hunter], 4);
+        ("Templar Assassin", [Species.Elf], [Traits.Assassin], 4);
+        ("Troll Warlord", [Species.Troll], [Traits.Warrior], 4);
+        ("Necrophos", [Species.Undead], [Traits.Warlock], 4);
+        ("Alchemist", [Species.Goblin], [Traits.Warlock], 4);
+        ("Medusa", [Species.Naga], [Traits.Hunter], 4);
+        ("Doom", [Species.Demon], [Traits.Warrior], 4);
+        ("Grimstroke", [Species.Demon], [Traits.Wizard], 4);
+        ("Nyx Assassin", [Species.Aqir], [Traits.Assassin], 4);
+        ("Broodmother", [Species.Aqir], [Traits.Hunter], 4);
+
+        ("", [], [], 4);
+        ("", [], [], 3);
+
     ]
